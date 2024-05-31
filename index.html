@@ -11,7 +11,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Ev Odevi 4</title>
+    <title>Ev Odevi 5</title>
 </head>
 
 <body>
@@ -443,8 +443,106 @@
                     </li>
                 </ul>
             </div>
+
+
+        <div class="footer-form-container">
+            <p class="footer-form-text">Subscribe</p>
+            <form class="footer-mail-form">
+                <label class="footer-mail-label">
+                    <input class="footer-mail-input" type="email" name="mail" placeholder="E-mail">
+                </label>
+        
+                <button class="footer-mail-button" type="submit">Subscribe
+                    <svg class="footer-mail-svg" width="24" height="24">
+                        <use href="./images/icons.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </form>
         </div>
+    </div>
+
+        
+
     </footer>
+
+
+    
+
+    
+    <div class="form-page-container">
+        <div class="form-page">
+            <button class="form-page-button-x" type="button">
+                <svg class="icon-close-svg" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+    
+            <p class="form-page-title">
+                Leave your contacts and we will call you back
+            </p>
+    
+            <form>
+                <div class="form-list">
+                    <label class="form-list-label" for="user-name">Name</label>
+                    <div class="inputs-icons">
+                        <input type="text" id="user-name" name="user-name" class="form-input" />
+    
+                        <svg class="inputs-icons-svg" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                        </svg>
+                    </div>
+                </div>
+    
+                <div class="form-list">
+                    <label class="form-list-label" for="user-phone">
+                        Phone</label>
+                    <div class="inputs-icons">
+                        <input type="tel" id="user-phone" name="user-phone" class="form-input" />
+    
+                        <svg class="inputs-icons-svg" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+    
+                <div class="form-list">
+                    <label class="form-list-label" for="user-mail">
+                        Email</label>
+                    <div class="inputs-icons">
+                        <input type="email" id="user-mail" name="user-mail" class="form-input" />
+    
+                        <svg class="inputs-icons-svg" width="18" height="24">
+                            <use href="./images/icons.svg#icon-Vector"></use>
+                        </svg>
+                    </div>
+                </div>
+    
+                <div class="form-list-text-container">
+                    <label for="user-comment" class="form-list-label">Comment</label>
+                    <textarea name="user-comment" id="user-comment" placeholder="Text input" class="text-area"></textarea>
+                </div>
+    
+                <div class="checkbox-container">
+                    <input type="checkbox" id="user-privacy" value="true" name="user-privacy"
+                        class="privacy-checkbox visually-hidden" />
+                    <label for="user-privacy" class="privacy-label">
+                        <span class="privacy-span">
+                            <svg width="10" height="8" class="span-svg">
+                                <use href="./images/icons.svg#icon-Vector-1"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a href="" class="privacy-link">Privacy Policy</a>
+                    </label>
+                </div>
+    
+                <button type="submit" class="form-list-buton buton">
+                    SEND
+                </button>
+            </form>
+        </div>
+    </div>
+
 </body>
 
 </html>
